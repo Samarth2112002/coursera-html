@@ -1,0 +1,46 @@
+p{
+    color : black;
+    margin: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    opacity: 0.5;
+}
+p > img {
+    margin-left: 20px;
+}
+div > div > p {
+    color: blue;
+}
+a:link, a:visited {
+    text-decoration: none;
+    border: 1px solid blue;
+    color: black;
+    display: block;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+a:hover, a:active{
+    background-color:red;
+    color: cyan;
+}
+div.style-list-1 a:nth-child(odd){
+    font-size: 24px;
+}
+div.style-list-1 ul li ol li:nth-child(odd):hover{
+    background-color: cyan;
+    cursor: pointer;
+}
+div.style-list-1 ul li ol li:nth-child(even):hover{
+    background-color: orange;
+    cursor: pointer;
+}
+div.style-list-1 ul li:nth-child(odd):hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+div.style-list-1 ul li:nth-child(even):hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
