@@ -1,0 +1,53 @@
+/* Navigation bar */
+nav.navbar {
+    background-color: orange;
+}
+nav.navbar div.container-fluid a {
+    color: purple
+}
+nav.nav-border {
+    border: 1px solid black;
+}
+nav.navbar div div li {
+    text-align: center;
+}
+nav.navbar div div hr {
+    width: 100%;
+    color: black;
+    margin: 0;
+}
+/* End of navigation nar */
+
+#menu-heading {
+    text-align: center;
+    margin: 20px auto 35px;
+}
+
+.visible-xs {
+    visibility: hidden;
+}
+@media (max-width: 575px) {
+    .visible-xs {
+        visibility: visible;
+    }
+    .col-xs-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+h1.text-center{
+    padding: 20px 0px 0px 35px;
+}
+#food-heading {
+    text-align: center;
+    padding: 5px 0px 0px 10px;
+}
+#food-section {
+    background-color: lightgrey;
+    margin: 10px 0px 10px 0px;
+    height: 900px;
+    overflow: auto;
+}
+#food-description {
+    padding: 2px 15px 2px 15px;
+}
